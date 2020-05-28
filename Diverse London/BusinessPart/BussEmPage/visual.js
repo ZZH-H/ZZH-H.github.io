@@ -1,6 +1,6 @@
 
 
-d3.csv("https://zzh-h.github.io/BusinessPart/BussEmPage/BusiBarData.csv").then(function (data) {
+d3.csv("https://zzh-h.github.io/Diverse London/BusinessPart/BussEmPage/BusiBarData.csv").then(function (data) {
   draw(data);
 })
 .catch(function(error){
